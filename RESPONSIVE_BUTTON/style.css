@@ -1,0 +1,62 @@
+.btn {
+    border: 0;
+    border-radius: 40px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background: dodgerblue;
+}
+
+.btn-primary:hover {
+    background: rgb(8, 123, 238);
+}
+
+.btn-secondary {
+    color: white;
+    background: darkturquoise;
+}
+
+.btn-secondary:hover {
+    background: rgb(2, 155, 154);
+}
+
+.btn-accent {
+    color: white;
+    background: orangered;
+}
+
+.btn-accent:hover {
+    background: rgb(192, 53, 2);
+}
+
+.btn-outline {
+    color: black;
+    background: #fff;
+    border: 2px solid black;
+}
+
+.btn-outline:hover {
+    color: #fff;
+    background: black;
+}
+
+.btn-block {
+    width: 100%;
+    display: inline-block;
+}
+
+/* Media querry is when screen is getting larger than 1024px */
+
+@media screen and (min-width:1024px) {
+    .btn {
+        font-size: 1.5rem;
+    }
+}
